@@ -1,0 +1,53 @@
+# Esigelec Android Development Master 2025
+
+This repository contains workshops for the Esigelec Android Master program in 2025.
+
+## Course Structure
+
+Classes are organized by date with morning (1) and afternoon (2) sessions.
+
+---
+
+## 📅 December 8, 2025
+
+### Session 1 (Morning) - [`20251208-1/`](20251208-1/)
+*Content: Android Foundations*
+- **Introduction to Android & Mobile Ecosystem**: Platform overview, app components, APK/aab basics, stores, devices & form factors
+- **Introduction to App UI with Figma**: Frames, components, layout constraints, exporting assets for Android
+
+---
+
+### Session 2 (Afternoon) - [`20251208-2/`](20251208-2/)
+*Content: Kotlin  Features*
+
+- **Variables & Type Inference**: Understanding `val` (immutable) vs `var` (mutable)
+- **String Templates**: Using `$` and `${}` for string interpolation
+- **Functions**: Function declaration with parameters and return types, including single-expression functions
+- **Named & Default Parameters**: Calling functions with parameter names and default values
+- **Control Flow**:
+  - `if/else` statements and expressions
+  - `when` expressions for pattern matching
+  - Range checks (`in 3..10`)
+- **Loops**: `for` loops with ranges and collections
+- **Collections**: `mutableListOf()` for creating dynamic lists
+- **Object-Oriented Programming**:
+  - Class declaration with properties and methods
+  - `open` classes for inheritance
+  - Class inheritance with constructor delegation
+- **Data Classes**: Automatic generation of `toString()`, `equals()`, `hashCode()`, and `copy()`
+- **Null Safety** (The Billion Dollar Fix):
+  - Non-nullable vs nullable types (`String` vs `String?`)
+  - Safe call operator (`?.`)
+  - Elvis operator (`?:`) for default values
+- **Collections & Functional Programming**:
+  - `listOf()` for immutable lists
+  - `.filter { }` for filtering collections
+  - `.map { }` for transforming collections
+  - Lambda expressions
+- **Advanced Control Flow**:
+  - `when` expressions with multiple patterns
+  - Iterating through collections with for loops
+  - Single-expression functions with `if/else`
+
+#### 🚀 How to Run
+Copy the code examples from the exercise files and paste them into [Kotlin Playground](https://play.kotlinlang.org/). Press the purple **Run** button to execute the code.
