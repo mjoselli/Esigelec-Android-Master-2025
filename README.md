@@ -14,6 +14,7 @@ Classes are organized by date with morning (1) and afternoon (2) sessions.
 *Content: Android Foundations*
 - **Introduction to Android & Mobile Ecosystem**: Platform overview, app components, APK/aab basics, stores, devices & form factors
 - **Introduction to App UI with Figma**: Frames, components, layout constraints, exporting assets for Android
+**Figma Exercise**
 
 ---
 
@@ -49,5 +50,22 @@ Classes are organized by date with morning (1) and afternoon (2) sessions.
   - Iterating through collections with for loops
   - Single-expression functions with `if/else`
 
+**Kotlin Exercises**
+
+
 #### 🚀 How to Run
 Copy the code examples from the exercise files and paste them into [Kotlin Playground](https://play.kotlinlang.org/). Press the purple **Run** button to execute the code.
+
+
+## 📅 December 9, 2025
+
+### Session 1 (Morning) - [`20251209-1/`](20251209-1/)
+*Content: Android Studio & First App*
+
+- **Android Studio Setup**: Installing Android Studio, SDK configuration, creating first project
+- **MainActivity & Jetpack Compose Basics**: Understanding the entry point of Android apps
+- **Composable Functions**: Building UI with `@Composable` annotation
+- **Basic UI Components**: `Text`, `Surface`, and layout composables
+- **Preview Function**: Using `@Preview` for UI development without running the app
+
+**Hero Exercise**
