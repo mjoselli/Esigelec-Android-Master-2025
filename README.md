@@ -68,4 +68,23 @@ Copy the code examples from the exercise files and paste them into [Kotlin Playg
 - **Basic UI Components**: `Text`, `Surface`, and layout composables
 - **Preview Function**: Using `@Preview` for UI development without running the app
 
-**Hero Exercise**
+**Workshop Exercise: Vilain Exercise**
+
+
+### Session 2 (Afternoon) - [`20251209-2/`](20251209-2/)
+*Content: The Core Loop (State & Lists)*
+
+- **Project Creation**: Setting up a new Android Compose project structure
+- **The Data Model**: Understanding data structures and how to model shopping items
+- **LazyColumn**: Building scrollable lists with Jetpack Compose
+- **Material Design 3 Surface**: Applying visual design and styling to list items
+- **State Management**: 
+  - `mutableStateOf()` for reactive state
+  - `remember` for composable state persistence
+  - State hoisting for parent-child communication
+- **List Operations**: Adding and removing items from lists
+- **Event Handling**: Button clicks and user interactions
+- **Composable Reusability**: Creating reusable UI components
+
+**Workshop Exercise: The Core Loop**
+
