@@ -104,3 +104,15 @@ Copy the code examples from the exercise files and paste them into [Kotlin Playg
 
 **Workshop Exercise: About Screen**
 
+### Session 2 (Afternoon) - [`20251210-2/`](20251210-2/)
+*Content: Workshop – The Pokedex (Networking & APIs)*
+
+- **Stack**: Retrofit (API), Gson (JSON parsing), Coil (image loading), Coroutines (background work)
+- **Permissions & Deps**: Add INTERNET permission; add Retrofit, Gson converter, Coil to module Gradle; sync
+- **Theory**: JSON structure, HTTP GET basics
+- **Data Model**: `PokemonResponse`, `Pokemon` with `id` extractor and `imageUrl` helper
+- **API Interface**: Retrofit `PokeApiService` with `getPokemonList()`, `RetrofitInstance` singleton
+- **ViewModel (State)**: `UiState` sealed interface (`Loading`, `Success`, `Error`); `PokemonViewModel` with `fetchPokemon()` and `toggleFavorite()`
+- **UI**: `PokedexScreen` with loading/error/success states; `PokemonGrid` using `LazyVerticalGrid`; `PokemonCard` with `AsyncImage` and favorite toggle
+- **Run Flow**: `onCreate` calls `PokedexScreen()`; verify INTERNET permission if crashes
+**Workshop Exercise: Pokemon Shiny**
