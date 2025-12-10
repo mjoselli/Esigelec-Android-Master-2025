@@ -86,5 +86,21 @@ Copy the code examples from the exercise files and paste them into [Kotlin Playg
 - **Event Handling**: Button clicks and user interactions
 - **Composable Reusability**: Creating reusable UI components
 
-**Workshop Exercise: The Core Loop**
+**Workshop Exercise: The Shopping list**
+
+## 📅 December 10, 2025
+
+### Session 1 (Morning) - [`20251210-1/`](20251210-1/)
+*Content: Architecture & Navigation (MVVM, Multi-Screen Apps)*
+
+- **Why Architecture?** Moving UI/logic/navigation out of a single Activity
+- **MVVM Basics (Chef & Waiter)**: View = UI only; ViewModel = data/logic; survives rotation
+- **Navigation Setup**: Add `androidx.navigation:navigation-compose` dependency; sync Gradle
+- **Gradle Config**: Project-level and module-level updates for Compose + Navigation (versions may vary)
+- **ViewModel Creation**: `TaskViewModel` holds task list and `getTask(id)`; `TaskItem` gains `details`
+- **Detail Screen**: `DetailScreen(taskId, viewModel, onBack)` shows task info and back button
+- **NavHost & Routes**: `AppNavigation` with `NavHost`, routes `task_list` and `detail_screen/{taskId}`, `rememberNavController`, shared `viewModel()`
+- **List Screen Refactor**: `TaskScreen(viewModel, onTaskClick)` pulls data from ViewModel; `TaskRow` clickable via `Surface(onClick)`
+
+**Workshop Exercise: About Screen**
 
