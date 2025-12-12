@@ -153,3 +153,7 @@ Copy the code examples from the exercise files and paste them into [Kotlin Playg
 
 #### 🚀 Project Submission
 Students should complete and submit their final Movie Tracker project demonstrating mastery of Android development concepts covered in the course.
+
+
+#### Course Feedback
+[Please send your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSd4kx3WdUGmdByvkMywdb6w_zXfDmnipFzVXgTBeptwMcq0dQ/viewform?usp=sharing&ouid=107812178043281932643)
