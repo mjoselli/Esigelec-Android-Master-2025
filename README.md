@@ -115,4 +115,41 @@ Copy the code examples from the exercise files and paste them into [Kotlin Playg
 - **ViewModel (State)**: `UiState` sealed interface (`Loading`, `Success`, `Error`); `PokemonViewModel` with `fetchPokemon()` and `toggleFavorite()`
 - **UI**: `PokedexScreen` with loading/error/success states; `PokemonGrid` using `LazyVerticalGrid`; `PokemonCard` with `AsyncImage` and favorite toggle
 - **Run Flow**: `onCreate` calls `PokedexScreen()`; verify INTERNET permission if crashes
+
 **Workshop Exercise: Pokemon Shiny**
+
+---
+
+## 📅 December 12, 2025
+
+### Session 1 (Morning) - [`20251212-1/`](20251212-1/)
+*Content: Room Database & Local Storage*
+
+- **Introduction to Room**: Android's SQLite wrapper for local data persistence
+- **Database Architecture**: Entity, DAO (Data Access Object), and Database components
+- **Entity Definition**: Creating data classes with `@Entity` annotation
+- **DAO Operations**: CRUD operations with `@Insert`, `@Query`, `@Update`, `@Delete`
+- **Database Instance**: Setting up Room database with `@Database` annotation
+- **Coroutines with Room**: Using suspend functions for database operations
+- **Type Converters**: Handling complex data types in Room
+- **Database Migration**: Managing schema changes
+
+
+---
+
+### Session 2 (Afternoon) - [`20251212-2/`](20251212-2/)
+*Content: Final Project – Android Movie Tracker*
+
+**Project Work Session**: Students work on building a complete Movie Tracker application that integrates all concepts learned throughout the course:
+- Movie database with Room for local storage
+- API integration for fetching movie data
+- Multi-screen navigation
+- MVVM architecture pattern
+- State management
+- Image loading with Coil
+- User favorites and watchlist functionality
+
+**Final Project Requirements**: See detailed specifications in Final Project document
+
+#### 🚀 Project Submission
+Students should complete and submit their final Movie Tracker project demonstrating mastery of Android development concepts covered in the course.
