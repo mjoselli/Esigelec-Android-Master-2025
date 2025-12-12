@@ -156,4 +156,4 @@ Students should complete and submit their final Movie Tracker project demonstrat
 
 
 #### Course Feedback
-[Please send your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSd4kx3WdUGmdByvkMywdb6w_zXfDmnipFzVXgTBeptwMcq0dQ/viewform?usp=sharing&ouid=107812178043281932643)
+[Please send your feedback here](https://forms.gle/Wngh6LkiUx7WK3sS8)
